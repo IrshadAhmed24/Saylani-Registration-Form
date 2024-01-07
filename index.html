@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form - Saylani Mass Training And Job Creation Program</title>
+</head>
+<body>
+
+    <h1>Saylani Mass Training And Job Creation Program</h1>
+    <h2>Registration / Entry Test Form</h2>
+
+    <form action="#" method="post">
+
+        <label for="course">Select Your Course:</label>
+        <select id="course" name="course" required>
+            <option value="graphic_designing">Graphic Designing</option>
+            <option value="web_development">Web Development</option>
+            <option value="ai">Ai</option>
+            <option value="3D">3D</option>
+        </select>
+
+        <br>
+
+        <label for="batch">Select Batch:</label>
+        <input type="number" id="batch" name="batch" min="1" max="9" required>
+
+        <br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <br>
+
+        <label for="cnic">CNIC:</label>
+        <input type="text" id="cnic" name="cnic" required>
+
+        <br>
+
+        <label for="father_name">Father's Name:</label>
+        <input type="text" id="father_name" name="father_name" required>
+
+        <br>
+
+        <label for="father_cnic">Father's CNIC:</label>
+        <input type="text" id="father_cnic" name="father_cnic" required>
+
+        <br>
+
+        <label for="address">Full and Permanent Address:</label>
+        <textarea id="address" name="address" required></textarea>
+
+        <br>
+
+        <label for="contact_number">Contact Number:</label>
+        <input type="tel" id="contact_number" name="contact_number" required>
+
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br>
+
+        <label for="qualification">Last Qualification:</label>
+        <input type="radio" id="none" name="qualification" value="none" required>
+        <label for="none">None</label>
+        <input type="radio" id="matric" name="qualification" value="matric" required>
+        <label for="matric">Matric</label>
+        <input type="radio" id="inter" name="qualification" value="intermediate" required>
+        <label for="inter">Intermediate</label>
+        <input type="radio" id="bachelor" name="qualification" value="bachelor" required>
+        <label for="bachelor">Bachelor</label>
+        <input type="radio" id="master" name="qualification" value="master" required>
+        <label for="master">Master</label>
+
+        <br>
+
+        <label for="image">Upload your recent image:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
+        <p>(Face front without glasses and with a single-colored background)</p>
+
+        <br>
+
+        <h6>Availability</h6>
+
+        <p>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, I will abide by all the established and future regulations and policies of SWIT.</p>
+
+        <p>I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program. Defiance will render my admission canceled at any point in time.</p>
+
+        <p>Upon completion of the course, I will complete the required project by SWIT. It's mandatory for female students to wear abaya/hijab in the class.</p>
+
+        <input type="checkbox" id="declaration" name="declaration" required>
+        <label for="declaration">I agree to the above terms:</label>
+
+        <br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
